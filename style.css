@@ -82,3 +82,26 @@ button:hover {
 #taskList li button:hover {
     background-color: #cc0000;
 }
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.controls button {
+    background-color: #2196F3;
+}
+
+.controls button:hover {
+    background-color: #1976D2;
+}
+
+#taskList li .edit-btn {
+    background-color: #FFC107;
+    margin-right: 5px;
+}
+
+#taskList li .edit-btn:hover {
+    background-color: #FFB300;
+}
